@@ -1,0 +1,195 @@
+
+  #search{
+      border: none;
+      border-bottom: black 1px solid;
+      text-align: center;
+      font-family: 'Bebas Neue', cursive;      margin-left: 20px;
+      width: 200px;
+      font-size: 5vh;
+      margin-top: -10px;
+  }
+  #searchbar{
+      padding-right: 2em;
+  }
+  .kl1{
+    font-family: 'Bebas Neue', cursive;    font-size: 20px;
+    background-color: #bdc3c7;
+width: 50%;
+padding-left: 1em;
+}
+  #w1{
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;text-align: center;
+  }
+  #va{
+    margin-left: 150px;
+    margin-top: -330px;
+    font-family: 'Bebas Neue', cursive;    width: 50%;
+    background-color: #bdc3c7;
+    font-size: 20px;
+
+  }
+  .nav-link{
+    font-family: 'Bebas Neue', cursive;font-size: 6vh;
+color: rgb(151, 151, 151);
+margin-left: 20px;
+}
+  #dropdownMenuButton{
+    font-family: 'Bebas Neue', cursive;font-size: 6.1vh;
+color: rgb(151, 151, 151);
+margin-left: 20px;
+
+  }
+  .navbar-brand{
+  margin-left: 10px;
+  margin-top: -10px;
+  }
+  #logo{
+      font-size: 4vw;
+      font-family: 'Abril Fatface', cursive;
+      background-image: linear-gradient(#bdc3c7,#2c3e50);
+      -webkit-background-clip:text ;
+      -webkit-text-fill-color: transparent;
+      text-align: center;
+    }
+    #bigpic{
+     margin-left: 200px;
+     margin-top: 30px;
+    }
+    .diveer{
+display: flex;
+
+    }
+    h2{
+        flex: 1;
+        padding-left: 5em;
+        font-family: 'Bebas Neue', cursive;font-size: 6vh;
+
+    }
+    .vertical {
+        border-left: 4px solid black;
+        height: 100px;
+        position:absolute;
+        left: 30%;
+    }
+    .vertical1 {
+        border-left: 4px solid black;
+        height: 100px;
+        position:absolute;
+        left: 70%;
+    }
+    #pick{
+     margin-left: -400px;
+    }
+    .diveer1{
+        display: flex;
+        margin-top: 30px;
+        
+            }
+            h4{
+                flex: 1;
+                padding-left: 6em;
+                font-family: 'Bebas Neue', cursive;
+                margin-top: 20px;
+                color: #343a40ff;
+
+        
+            }
+            #d{
+                flex: 1;
+                padding-left: 7em;
+                font-family: 'Bebas Neue', cursive;
+                color: #343a40ff;
+
+            }
+            #pic2{
+                   max-width: 100%;
+                   margin-top: 140px;
+                   margin-left: 100px;
+                   position: absolute;
+                   border: #495057 10px solid;
+                   border-image: linear-gradient(45deg, rgb(173, 181, 189), rgb(108, 117, 125) ,rgb(52, 58, 64)) 1;
+                }
+
+            #pic3{
+                max-width: 100%;
+                margin-top: 100px;
+                z-index: 1px;
+            }
+            #talk{
+                margin-top: 400px;
+                padding-left: 5em;
+            }
+            #para{
+                text-align: center;
+                font-family:'Lora', serif ;
+                font-size: 3vh;
+            }
+            h3{
+                text-align: center;
+                font-family: 'Bebas Neue', cursive;
+                font-size: 10vh;
+            }
+  @media only screen and (max-width: 768px) {
+    .navbar-toggler{
+border: none;
+}
+#talk{
+    margin-top: 600px;
+    margin-left: -320px;
+    padding-right: 3em;
+}
+#searchbar{
+    display: none;
+        }
+        #logo{
+            font-size:30px;
+            padding-top: 1em;
+          }
+          #bigpic{
+              margin-left: -100px;
+            margin-top: 30px;
+           }
+           .diveer{
+            display: flex;
+            
+                }
+                h2{
+                    margin-left: -100px;
+                    font-family: 'Bebas Neue', cursive;font-size: 6vh;
+            
+                }
+                .vertical {
+                  display: none;
+                }
+                .vertical1 {
+                    display: none;
+
+                }
+                #pick{
+                 margin-left: -400px;
+                }
+                .diveer1{
+                    display: flex;
+                    margin-top: 30px;
+                    
+                        }
+                        h4{
+                            flex: 1;
+                            margin-left: -100px;
+
+                            font-family: 'Bebas Neue', cursive;
+                            margin-top: 20px;
+                            color: #343a40ff;
+            
+                    
+                        }
+                        #d{
+                            font-family: 'Bebas Neue', cursive;
+                            color: #343a40ff;
+            
+                        }
+  [class*="col-"] {
+    width: 100%;
+  }
+}
